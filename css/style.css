@@ -1,0 +1,129 @@
+body {
+    background-image: url(../img/Cloud.png);
+    background-repeat: no-repeat;
+    background-position: 0 108px;
+}
+
+.form {
+    background: url(../img/Mask\ Group.png) top right no-repeat;
+    height: 1000px;
+}
+
+.container {
+    width: 1140px;
+    height: 670px;
+    margin: 0 auto;
+    margin-bottom: 174px;
+    position: relative;
+    bottom: -146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-title {
+    color: #3E3E3E;
+    font-family: Arapey;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 52px */
+}
+
+.form-join input {
+    width: 100%;
+    height: 93px;
+    padding: 30px 0 30px 46px;
+    border-radius: 10px;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+    color: #2D2D2D;
+    font-family: Apercu Arabic Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 32.4px */
+    outline: none;
+}
+
+.form-join {
+    width: 557px;
+    height: 413px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFF;
+}
+
+.form-join textarea {
+    width: 100%;
+    height: 189px;
+    padding: 31px 0 0 46px;
+    border-radius: 10px;
+    border: 1px solid #DCDCDC;
+    background: #FFF;
+    color: #2D2D2D;
+    font-family: Apercu Arabic Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 32.4px */
+    resize: none;
+    outline: none;
+}
+
+.form-btn {
+    width: 218px;
+    height: 73px;
+    border-radius: 500px;
+    background: #FAD34F;
+    color: #FFF;
+    font-family: Apercu Arabic Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+}
+
+.red-circle {
+    position: absolute;
+    right: 376px;
+    top: 564px;
+}
+
+.yellow-circle {
+    position: absolute;
+    right: 536px;
+    z-index: 5;
+    top: 532px;
+}
+
+.yellow-circle2 {
+    position: absolute;
+    top: 17px;
+    left: 36px;
+}
+
+.sun {
+    position: absolute;
+    top: 0;
+    right: 400px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    border: 1px solid #D8D8D8;
+    background: #FAFAFA;
+}
+
+.links {
+    width: 203px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
